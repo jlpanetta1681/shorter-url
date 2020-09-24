@@ -4,7 +4,7 @@ import Hero from './components/pages/Hero.jsx'
 import Short from './components/pages/Short.jsx'
 import Body from './components/pages/Body.jsx'
 import Footer from  './components/pages/Footer.jsx'
-
+import './App.css'
 
 function App() {
   return (
