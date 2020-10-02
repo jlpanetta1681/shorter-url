@@ -1,10 +1,15 @@
 import React from 'react'
-import Nav from './components/pages/Nav.jsx'
-import Hero from './components/pages/Hero.jsx'
-import Short from './components/pages/Short.jsx'
-import Body from './components/pages/Body.jsx'
-import Footer from  './components/pages/Footer.jsx'
+import Nav from './components/Nav'
+import Hero from './components/Hero.jsx'
+import Short from './components/Short.jsx'
+import Body from './components/Body.jsx'
+import Footer from  './components/Footer.jsx'
+import styled from 'styled-components';
 
+
+const styledDiv = styled.div
+background: seagreen;
+margin: 0 auto;
 
 function App() {
   return (
